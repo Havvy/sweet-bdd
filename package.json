@@ -1,0 +1,25 @@
+{
+  "name": "sweet-bdd",
+  "version": "1.0.0",
+  "description": "BDD Macros for Sweet.js",
+  "main": "macros.sjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Havvy/sweet-bdd.git"
+  },
+  "keywords": [
+    "sweet-macros",
+    "bdd",
+    "macro",
+    "macros"
+  ],
+  "author": "Ryan Scheel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Havvy/sweet-bdd/issues"
+  },
+  "homepage": "https://github.com/Havvy/sweet-bdd"
+}
