@@ -33,3 +33,15 @@ describe "async sweet.js" {
 ```
 
 Instantly make your tests more readable today!
+
+## Installation and Usage
+
+```shell
+npm install sweet-bdd
+```
+
+Update your tests and remove all those uneeded parenthesis, semicolons, and function keywords.
+
+```shell
+sjs -m sweet-bdd -o test/filename.js test-src/filename.sjs
+```
