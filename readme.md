@@ -34,6 +34,8 @@ describe "async sweet.js" {
 
 Instantly make your tests more readable today!
 
+See examples.sjs for more examples.
+
 ## Installation and Usage
 
 ```shell
@@ -44,4 +46,24 @@ Update your tests and remove all those uneeded parenthesis, semicolons, and func
 
 ```shell
 sjs -m sweet-bdd -o test/filename.js test-src/filename.sjs
+```
+
+Note: Using a build system such as Gulp or Grunt can make using Sweet.js much easier.
+
+## Exclusive and Inclusive Tests and Suits
+
+You can use Mocha's [exclusive](http://visionmedia.github.io/mocha/#exclusive-tests) and
+[inclusive](http://visionmedia.github.io/mocha/#exclusive-tests) features by putting either
+`skip` or `only` before the name of a test or suite.
+
+```javascript
+describe only "Only this suite will be ran" {
+    it skip "but this test will not" {
+        return false;
+    }
+
+    it "and this tell will run" {
+        return true;
+    }
+}
 ```
