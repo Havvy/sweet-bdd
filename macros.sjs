@@ -52,7 +52,7 @@ let it = macro {
 
     // it only "is only ran" { ... }
     rule { only $name:lit { $body ... } } => {
-        it.skip($name, function () {
+        it.only($name, function () {
             $body ...
         });
     }
