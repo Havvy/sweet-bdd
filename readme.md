@@ -52,8 +52,8 @@ Note: Using a build system such as Gulp or Grunt can make using Sweet.js much ea
 
 ## Exclusive and Inclusive Tests and Suits
 
-You can use Mocha's [exclusive](http://visionmedia.github.io/mocha/#exclusive-tests) and
-[inclusive](http://visionmedia.github.io/mocha/#exclusive-tests) features by putting either
+You can use Mocha's [exclusive](http://mochajs.org/#exclusive-tests) and
+[inclusive](http://mochajs.org/#inclusive-tests) features by putting either
 `skip` or `only` before the name of a test or suite.
 
 ```javascript
